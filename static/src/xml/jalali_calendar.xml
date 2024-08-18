@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="jalali_calendar_crm.jalali_calendar">
+        <input type="text" t-att-id="widget.id_for_label" t-att-tabindex="widget.attrs.tabindex"
+               t-att-autofocus="widget.attrs.autofocus" t-att-placeholder="widget.attrs.placeholder"
+               t-attf-class="o_datepicker_input o_input {{widget.widgetClass || ''}}"
+               t-att-name="widget.name" t-att-value="widget.value"/>
+    </t>
+</templates>
